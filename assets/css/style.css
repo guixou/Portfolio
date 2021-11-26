@@ -1,0 +1,15 @@
+/*########################
+        Haeder
+########################*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px 0 20px;
+    border-bottom: 1px solid black;
+}
+
+.ImageHeader {
+    max-height: 200px;
+    overflow: hidden;
+}
