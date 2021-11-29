@@ -9,7 +9,45 @@ header {
     border-bottom: 1px solid black;
 }
 
+header a{
+    display: flex;
+    align-items: center;
+}
+
+header a svg{
+    margin-right: 5px;
+}
 .ImageHeader {
     max-height: 200px;
     overflow: hidden;
+}
+
+
+/*########################
+        main
+########################*/
+
+/* description CV */
+
+
+.descrition div {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.cv {
+    flex-direction: column;
+}
+.cv img{
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+/* lien vers mes sites */
+
+.creation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

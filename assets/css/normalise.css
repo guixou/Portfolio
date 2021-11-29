@@ -9,3 +9,18 @@ body {
     margin: 0;
     font-family: 'Roboto';
 }
+
+a{
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* les trait de séparation */
+
+.trait{
+    display: flex;
+    justify-content: center;
+}

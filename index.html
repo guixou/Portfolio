@@ -11,13 +11,15 @@
 </head>
 <body>
     <header>
-        <div>
-            <i class="fas fa-bars"></i>
+        <a href="">
+            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+            <path d="M0 4h24v2H0zM0 11h14v2H0zM0 18h20v2H0z"></path>
+            </svg> <!--a créer-->
             <p>Menu</p>
-        </div>
+        </a>
 
         <div>
-            <p>Guillaume Picard</p>
+            <h1>Guillaume Picard</h1>
         </div>
     </header>
 
@@ -27,31 +29,47 @@
         </div>
         
 
-        <section>
+        <section class="descrition">
+            <div class="trait">
+                <svg width="300" height="5" viewBox="0 0 300 5" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0" y1="0" x2="1000" y2="0" stroke-width="4" stroke="black" />
+                </svg>
+            </div>
+            <h2>Description</h2>
             <div>
-                <img src="" alt="">
-                <a href="">CV</a>
-            </div>
-            <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque corrupti architecto sequi ad, consequuntur tempora blanditiis eligendi eos ex. Alias neque temporibus maxime. Possimus qui nostrum, molestias reiciendis iusto laboriosam.</p></div>
-            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nam commodi incidunt veritatis omnis officia excepturi architecto modi harum accusantium totam sapiente, iure delectus, adipisci ratione quos soluta neque maiores!</p></div>
+                <div class="cv">
+                    <img src="assets/image/moi.JPG" alt="c'est moi">
+                    <a href="">CV Developeur Web</a>
+                </div>
+                <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque corrupti architecto sequi ad, consequuntur tempora blanditiis eligendi eos ex. Alias neque temporibus maxime. Possimus qui nostrum, molestias reiciendis iusto laboriosam.</p></div>
+                <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nam commodi incidunt veritatis omnis officia excepturi architecto modi harum accusantium totam sapiente, iure delectus, adipisci ratione quos soluta neque maiores!</p></div>
+            </div>    
         </section>
 
-        <section>
-            <div> <!-- mettre un background img sur chaque div-->
-                <p>COmmentaire sur le site</p>
+        <section class="creation">
+            <div class="trait">
+                <svg width="300" height="5" viewBox="0 0 300 5" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0" y1="0" x2="1000" y2="0" stroke-width="4" stroke="black" />
+                </svg>
             </div>
-        </section>
+            <h2>Mes création</h2>
+            <article class="LeLocal">
+                <div> <!-- mettre un background img sur chaque div-->
+                  <p>Commentaire sur le site</p>
+                </div>
+            </article>
 
-        <section>
-            <div> <!-- mettre un background img sur chaque div-->
-                <p>COmmentaire sur le site</p>
-            </div>
-        </section>
+            <article>
+                <div> <!-- mettre un background img sur chaque div-->
+                  <p>Commentaire sur le site</p>
+                </div>
+            </article>
 
-        <section>
-            <div> <!-- mettre un background img sur chaque div-->
-                <p>COmmentaire sur le site</p>
-            </div>
+            <article>
+                <div> <!-- mettre un background img sur chaque div-->
+                  <p>Commentaire sur le site</p>
+                </div>
+            </article>
         </section>
     </main>
 
