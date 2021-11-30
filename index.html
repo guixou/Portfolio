@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les lien utile de lipro</title>
+    <title>Guillaume Picard Developeur Web</title>
     <script src="https://kit.fontawesome.com/0fc5bb7376.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/normalise.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/header.js"></script>
 </head>
 <body>
     <header>
-        <a href="">
-            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-            <path d="M0 4h24v2H0zM0 11h14v2H0zM0 18h20v2H0z"></path>
-            </svg> <!--a créer-->
-            <p>Menu</p>
-        </a>
+        <div class="header">
+            <a href="">
+                <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                    <path d="M0 4h24v2H0zM0 11h14v2H0zM0 18h20v2H0z"></path>
+                </svg> <!--a créer-->
+                <p>Menu</p>
+            </a>
 
-        <div>
-            <h1>Guillaume Picard</h1>
+            <div>
+                <h1>Guillaume Picard</h1>
+            </div>
         </div>
+
+        <nav class="nav">
+            <a href="">Description</a>
+            <a href="">Mes création</a>
+            <a href="">Contact</a>
+        </nav>
     </header>
 
     <main>
@@ -31,17 +40,20 @@
 
         <section class="descrition">
             <div class="trait">
-                <svg width="300" height="5" viewBox="0 0 300 5" xmlns="http://www.w3.org/2000/svg">
+                <svg width="300" height="5" viewBox="0 0 300 5"  xmlns="http://www.w3.org/2000/svg">
                     <line x1="0" y1="0" x2="1000" y2="0" stroke-width="4" stroke="black" />
                 </svg>
             </div>
             <h2>Description</h2>
             <div>
                 <div class="cv">
-                    <img src="assets/image/moi.JPG" alt="c'est moi">
+                    <img src="assets/image/moi.png" alt="c'est moi">
                     <a href="">CV Developeur Web</a>
                 </div>
                 <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque corrupti architecto sequi ad, consequuntur tempora blanditiis eligendi eos ex. Alias neque temporibus maxime. Possimus qui nostrum, molestias reiciendis iusto laboriosam.</p></div>
+                <svg width="5" height="50%" viewBox="0 0 5 50%" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0" y1="0" x2="0" y2="1000" stroke-width="2" stroke="black"></line>
+                </svg>
                 <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nam commodi incidunt veritatis omnis officia excepturi architecto modi harum accusantium totam sapiente, iure delectus, adipisci ratione quos soluta neque maiores!</p></div>
             </div>    
         </section>
@@ -52,36 +64,45 @@
                     <line x1="0" y1="0" x2="1000" y2="0" stroke-width="4" stroke="black" />
                 </svg>
             </div>
-            <h2>Mes création</h2>
-            <article class="LeLocal">
-                <div> <!-- mettre un background img sur chaque div-->
-                  <p>Commentaire sur le site</p>
-                </div>
+
+            <h2>Mes créations</h2>
+
+            <article class="site LeLocal">
+                <a href="" >
+                    <div>
+                        <p>Le local</p>
+                        <p>Shop de piersing</p>
+                    </div>
+                </a>
+            </article>
+            
+            <article class="site TrainingStudio">
+                <a href="">
+                    <div>
+                        <p>Training Studio</p>
+                        <p>Site pour une salle de sport (fictive)</p>
+                    </div>
+                </a>
             </article>
 
-            <article>
-                <div> <!-- mettre un background img sur chaque div-->
-                  <p>Commentaire sur le site</p>
-                </div>
+            <article class="site">
+                <a href="">
+                    <div>
+                        <p>site</p>
+                        <p>Description</p>
+                    </div>
+                </a>
             </article>
 
-            <article>
-                <div> <!-- mettre un background img sur chaque div-->
-                  <p>Commentaire sur le site</p>
-                </div>
-            </article>
         </section>
     </main>
 
     <footer>
         <div>
-            <div>réseau sociau</div>
-            <div>lien des site</div>
-            <div>CV </div>
-        </div>
-
-        <div>
-            Tout droit réservé Guillaume Picard
+            <p>© Guillaume Picard</p>
+            <a href="https://www.linkedin.com/in/guillaume-picard-9513aa1b5/"><i class="fab fa-linkedin"></i> Linkedin</a>
+            <a href=""">Mon CV</a>
+            <a href="https://github.com/guixou">Github</a>
         </div>
     </footer>
 </body>

@@ -1,25 +1,46 @@
+
 /*########################
         Haeder
 ########################*/
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
-    padding:0 20px 0 20px;
+    padding:0 5% 0 5%;
     border-bottom: 1px solid black;
+    position: absolute;
+    width: 90%;
 }
 
-header a{
+.header a{
     display: flex;
     align-items: center;
 }
 
-header a svg{
+.header a svg{
     margin-right: 5px;
 }
+
 .ImageHeader {
-    max-height: 200px;
+    max-height: 300px;
     overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    top: 250px;
+}
+/* fixation du header JS */
+
+#fixed-header{
+    background-color: rgba(54, 50, 50, 0.363);
+    position: fixed;
+    top: 0;
+    height: 5%;
+    align-items: center;
 }
 
 
@@ -50,4 +71,72 @@ header a svg{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* 1er site le local */
+
+.site {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.site a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0);
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.site a:hover { /* filtre noire, text blanc */
+    background-color: rgba(0, 0, 0, 0.466);
+    color: rgb(255, 255, 255);
+}
+
+.site a:hover, .site a { /* transition */
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.site div {
+    text-align: center;
+}
+
+.LeLocal {
+    background-image: url(../image/LeLocal.JPG);
+}
+
+.TrainingStudio {
+    background-image: url(../image/TrainingStudio.PNG);
+}
+
+
+
+/*########################
+        footer
+########################*/
+
+footer {
+    background-color: rgb(53, 48, 45);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer div{    
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+
+
+footer a{
+    color: white;
 }
