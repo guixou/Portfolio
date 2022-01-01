@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         const header = document.querySelector(".nav");
 
-        if(window.scrollY > 250){
+        if(window.scrollY > 150){
             header.setAttribute("id", "fixed-header");
         } else {
             header.removeAttribute("id", "fixed-header");

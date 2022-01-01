@@ -1,0 +1,123 @@
+/* en tete */
+
+header h2
+{
+	font-family: Impact;
+	font-size: 3em;
+}
+
+header p
+{
+	font-family: Comic Sans MS;
+	font-size: 1.2em;
+	text-align: right;
+}
+
+
+/* corp de la page */
+
+	/* titre en gris */
+.titre
+{
+	color: white;
+	background-color: rgb(117, 117, 117 );
+	width: 725px;
+	font-family: American Typewriter, serif;
+	border: 2px solid black;
+	text-indent: 10px;
+}
+
+	/* tableau */
+table
+{
+    border-collapse: collapse; 
+    border: 2px solid black;
+    width: 720px;
+  	margin: -18px 0px 0px 10px;
+}
+
+td
+{
+	border: 1px solid white;
+	background-color: rgb(128, 178, 231);
+}
+
+
+.date
+{
+	font-size: 2em;
+	font-family: arial;
+	width: 100px;
+	text-align: center;
+	line-height: 40px
+}
+
+article p, h3
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	font-family: arial;
+}
+
+
+/* aside photo coté gauche */
+
+
+aside
+{
+	background-color: rgb(128, 178, 231); 
+	width: 200px;
+	border: 1px solid black;
+	margin-right: 10px;
+}
+
+.coord
+{
+	background-color: grey;
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	margin-top: 100px;
+}
+#text
+{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 800px;
+	font-family: arial;
+}
+
+aside img
+{
+	width: 150px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	border: 1px solid black;
+
+}
+
+#cv
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#text img
+{
+	width: 40px;
+	border: none;
+}
+
+#text ul
+{
+	text-align: left;
+	margin-top: 5px
+}
+
