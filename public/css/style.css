@@ -65,6 +65,10 @@ nav{
     margin-bottom: 10px;
 }
 
+.language{
+    min-width: 25%;
+}
+
 /* lien vers mes sites */
 
 .creation{
