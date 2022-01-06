@@ -1,7 +1,12 @@
 
 /*########################
-        Haeder
+        Header
 ########################*/
+
+header{
+    height: 200px;
+    background-color: rgba(104, 84, 84, 0.493);
+}
 
 .header {
     display: flex;
