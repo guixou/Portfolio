@@ -4,26 +4,9 @@
 ########################*/
 
 header{
-    height: 200px;
     background-color: rgba(104, 84, 84, 0.493);
-}
-
-.header {
     display: flex;
-    justify-content: space-between;
-    padding:0 5% 0 5%;
-    border-bottom: 1px solid black;
-    position: absolute;
-    width: 90%;
-}
-
-.header a{
-    display: flex;
-    align-items: center;
-}
-
-.header a svg{
-    margin-right: 5px;
+    justify-content: center;
 }
 
 .ImageHeader {
@@ -34,20 +17,41 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    position: absolute;
-    top: 150px;
+    width: 40%;
 }
+
+nav a{
+    margin-top: 10px;
+}
+
+.header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 /* fixation du header JS */
 
-#fixed-header{
+#scroll-nav{
     background-color: rgba(54, 50, 50, 0.363);
     position: fixed;
     top: 0;
-    height: 5%;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0 0 10px 0;
 }
 
+#scroll-header{
+    display: block;
+}
+
+#navButton {
+    display: none;
+}
 
 /*########################
         main
@@ -125,6 +129,9 @@ nav{
     background-image: url(../image/TrainingStudio.PNG);
 }
 
+.oldCv{
+    background-image: url(../image/Cv.PNG);
+}
 
 
 /*########################

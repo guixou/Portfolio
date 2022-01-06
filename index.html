@@ -13,28 +13,20 @@
 <body>
     <header>
         <div class="header">
-            <a href="">
-                <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                    <path d="M0 4h24v2H0zM0 11h14v2H0zM0 18h20v2H0z"></path>
-                </svg> <!--a créer-->
-                <p>Menu</p>
-            </a>
+            <h1>Guillaume Picard</h1>
 
-            <div>
-                <h1>Guillaume Picard</h1>
-            </div>
+            <nav class="nav">
+                <i id="navButton" class="fas fa-bars"></i>
+                <a href="#Description">Description</a>
+                <a href="#création">Mes création</a>
+                <a href="public/cv/cvDev.pdf">Mon CV</a>
+            </nav>
         </div>
-
-        <nav class="nav">
-            <a href="">Description</a>
-            <a href="">Mes création</a>
-            <a href="">Contact</a>
-        </nav>
     </header>
 
     <main>        
 
-        <section class="descrition">
+        <section id="Description" class="descrition">
             <div class="trait">
                 <svg width="300" height="5" viewBox="0 0 300 5"  xmlns="http://www.w3.org/2000/svg">
                     <line x1="0" y1="0" x2="1000" y2="0" stroke-width="4" stroke="black" />
@@ -44,9 +36,14 @@
             <div>
                 <div class="cv">
                     <img src="public/image/moi.png" alt="c'est moi">
-                    <a href="public/monCv/index.html" target="_blank">CV Developeur Web</a>
                 </div>
-                <div><p>développeur web junior fréchement diplomé de la 3w academy</p></div>
+                <div>
+                    <p>
+                        développeur web junior fraîchement diplômé de la 3w Academy, le développement web m'a toujours attiré c'est pour cela 
+                        qu'aujourd'hui je me réoriente dans ce domaine, sortie d'un BTS ATI en alternance de deux ans, j'ai suivi une formation 
+                        chez la 3W Academy afin d'obtenir des bases solides dans les cinq langages majeurs du développement web.
+                    </p>
+                </div>
                 <svg width="5" height="50%" viewBox="0 0 5 50%" xmlns="http://www.w3.org/2000/svg">
                     <line x1="0" y1="0" x2="0" y2="1000" stroke-width="2" stroke="black"></line>
                 </svg>
@@ -68,7 +65,7 @@
                 </svg>
             </div>
 
-            <h2>Mes créations</h2>
+            <h2 id="création">Mes créations</h2>
 
             <article class="site LeLocal">
                 <a href="https://guillaumepic.sites.3wa.io/ProjetFinal/index.php" >
@@ -88,11 +85,11 @@
                 </a>
             </article>
 
-            <article class="site">
-                <a href="">
+            <article class="site oldCv">
+                <a href="public/site3/index.html">
                     <div>
-                        <p>site</p>
-                        <p>Description</p>
+                        <p>CV</p>
+                        <p>Mon ancien CV</p>
                     </div>
                 </a>
             </article>
@@ -104,7 +101,7 @@
         <div>
             <p>© Guillaume Picard</p>
             <a href="https://www.linkedin.com/in/guillaume-picard-9513aa1b5/"><i class="fab fa-linkedin"></i> Linkedin</a>
-            <a href="">Mon CV</a>
+            <a href="public/cv/cvDev.pdf">Mon CV</a>
             <a href="https://github.com/guixou">Github</a>
         </div>
     </footer>

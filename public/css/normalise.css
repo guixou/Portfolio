@@ -5,6 +5,11 @@
     src: url(../font/Roboto/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../font/Helvetica/_H_HelveticaNeueInterface_0.ttf);
+}
+
 html {
     height: 100%;
 }
@@ -12,7 +17,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
 }
 
 a{
@@ -29,4 +34,8 @@ h2 {
 .trait{
     display: flex;
     justify-content: center;
+}
+
+html{
+    scroll-behavior: smooth;
 }
