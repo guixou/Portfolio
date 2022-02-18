@@ -1,123 +1,125 @@
-/* en tete */
 
-header h2
-{
-	font-family: Impact;
-	font-size: 3em;
+
+/*########################
+        Header
+########################*/
+
+header{
+  width: 10%;
+  padding: 3%;
+  position: fixed
 }
 
-header p
-{
-	font-family: Comic Sans MS;
-	font-size: 1.2em;
-	text-align: right;
+html { 
+  overflow-y: scroll; 
 }
 
-
-/* corp de la page */
-
-	/* titre en gris */
-.titre
-{
-	color: white;
-	background-color: rgb(117, 117, 117 );
-	width: 725px;
-	font-family: American Typewriter, serif;
-	border: 2px solid black;
-	text-indent: 10px;
+.logo{
+  width: 100%;
 }
 
-	/* tableau */
-table
-{
-    border-collapse: collapse; 
-    border: 2px solid black;
-    width: 720px;
-  	margin: -18px 0px 0px 10px;
-}
-
-td
-{
-	border: 1px solid white;
-	background-color: rgb(128, 178, 231);
+.mobil{
+  display: none;
 }
 
 
-.date
-{
-	font-size: 2em;
-	font-family: arial;
-	width: 100px;
-	text-align: center;
-	line-height: 40px
+/*########################
+        Main
+########################*/
+
+/*Masonery */
+
+/* ---- grid ---- */
+
+.grid {
+  margin-right: 2%;
+  margin-left: 15%;
 }
 
-article p, h3
-{
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: 10px;
-	font-family: arial;
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 31.333%;
+  margin: 1%;
+}
+
+.grid-item {
+  float: left;
+  overflow: hidden;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  transition: all 0.5s;
+}
+
+.grid-item img:hover{
+  transform: scale(1.2);
+}
+
+/*########################
+   pop up modal
+########################*/
+
+
+.modal {
+  background: rgba(26, 22, 22, 0.521);
+  width: 80%;
+  height: 90%;
+  top: 5%;
+  right: 10%;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.modal img {
+  max-height: 95%;
+  max-width: 100%;
+  margin: auto;
 }
 
 
-/* aside photo coté gauche */
-
-
-aside
-{
-	background-color: rgb(128, 178, 231); 
-	width: 200px;
-	border: 1px solid black;
-	margin-right: 10px;
-}
-
-.coord
-{
-	background-color: grey;
-	border: 1px solid black;
-	margin-left: 20px;
-	margin-right: 20px;
-	text-align: center;
-	margin-top: 100px;
-}
-#text
-{
-	text-align: center;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
-	height: 800px;
-	font-family: arial;
-}
-
-aside img
-{
-	width: 150px;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-	border: 1px solid black;
+.modalActive {
+  display: flex;
 
 }
 
-#cv
-{
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: center;
-}
 
-#text img
-{
-	width: 40px;
-	border: none;
-}
+/*########################
+        responsive
+########################*/
 
-#text ul
-{
-	text-align: left;
-	margin-top: 5px
-}
+@media (max-width: 1020px) {
+  .pc{
+    display: none;
+  }
 
+  .mobil{
+    display: block;
+    margin: auto;
+  }
+
+  header{
+    position: inherit;
+    width: 50%;
+    display: flex;
+    margin: auto;
+  }
+
+  .grid{
+    margin-left: 2%;
+  }
+}
