@@ -3,14 +3,17 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     const navA = document.querySelectorAll("nav a");
+    
+        
+    const nav = document.querySelector(".nav");
+    const header = document.querySelector("header");
+    const button = document.querySelector(".fa-bars");
 
     window.addEventListener('scroll', function(e){
-        
-        const nav = document.querySelector(".nav");
-        const header = document.querySelector("header");
-        const button = document.querySelector(".fa-bars");
 
-        if(window.scrollY > 80){
+        if (screen.width <= 1000) {
+
+        }else if(window.scrollY > 80){
             header.setAttribute("id", "scroll-header");
             nav.setAttribute("id", "scroll-nav");
             button.removeAttribute("id", "navButton");
@@ -45,6 +48,29 @@ document.addEventListener('DOMContentLoaded', function () {
             show = true;
         }
     })
+
+   
+    window.addEventListener('resize', function(){
+        
+        const h1 = document.querySelector("h1")
+
+        if (screen.width <= 1000) {
+            header.setAttribute("id", "scroll-header");
+            nav.setAttribute("id", "scroll-nav");
+            button.removeAttribute("id", "navButton");
+            h1.setAttribute("id", "h1-none")
+            
+        } else {
+            nav.removeAttribute("id", "scroll-nav");
+            header.removeAttribute("id", "scroll-header");
+            button.setAttribute("id", "navButton");
+            h1.removeAttribute("id", "h1-none")
+            
+            for (let i = 0; i < navA.length; i++) {
+                navA[i].removeAttribute("id", "navButton"); 
+            };
+        }
+      });
 });
         
 

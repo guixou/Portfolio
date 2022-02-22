@@ -25,10 +25,10 @@ nav a{
 }
 
 .header{
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 63%;
 }
 
 
@@ -47,9 +47,14 @@ nav a{
 
 #scroll-header{
     display: block;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 #navButton {
+    display: none;
+}
+
+#h1-none {
     display: none;
 }
 
@@ -76,6 +81,10 @@ nav a{
 
 .language{
     min-width: 25%;
+}
+
+.horizontal{
+    display: none;
 }
 
 /* lien vers mes sites */
@@ -156,3 +165,35 @@ footer div{
 footer a{
     color: white;
 }
+
+@media (max-width: 1000px) {
+    .cv img{
+        display: none
+    }
+
+    .header {
+        display: ;
+    }
+
+    .descrition div {
+        flex-direction: column;
+    }
+
+    .vertical{
+        display: none;
+    }
+
+    .horizontal{
+        display: block;
+    }
+
+    .site{
+        background-position: center
+    }
+
+    footer div{
+        flex-direction: column;
+    }
+
+}
+
