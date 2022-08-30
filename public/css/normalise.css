@@ -1,13 +1,9 @@
 /* font */
 
-@font-face {
-    font-family: 'Roboto';
-    src: url(/public/font/Roboto/Roboto-Regular.ttf);
-}
 
 @font-face {
     font-family: 'Helvetica';
-    src: url(/public/font/Helvetica/_H_HelveticaNeueInterface_0.ttf);
+    src: url(..\font\Helvetica\_H_HelveticaNeueInterface_0.ttf);
 }
 
 html {
