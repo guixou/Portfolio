@@ -54,10 +54,6 @@ nav a{
     display: none;
 }
 
-#h1-none {
-    display: none;
-}
-
 /*########################
         main
 ########################*/
@@ -193,6 +189,14 @@ footer a{
 
     footer div{
         flex-direction: column;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    nav{
+        width: 100%;
     }
 
 }
