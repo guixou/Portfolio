@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             header.setAttribute("id", "scroll-header");
             nav.setAttribute("id", "scroll-nav");
             button.removeAttribute("id", "navButton");
-            console.log(this.scrollY)
+            // console.log(this.scrollY)
 
         } else {
             nav.removeAttribute("id", "scroll-nav");
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 navA[i].setAttribute("id", "navButton");  
             };
             show = false;
-            console.log(show);
+            // console.log(show);
         } else {
             for (let i = 0; i < navA.length; i++) {
                 navA[i].removeAttribute("id", "navButton"); 
