@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url(../font/Roboto/Roboto-Regular.ttf);
+    src: url(/public/font/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Helvetica';
-    src: url(../font/Helvetica/_H_HelveticaNeueInterface_0.ttf);
+    src: url(/public/font/Helvetica/_H_HelveticaNeueInterface_0.ttf);
 }
 
 html {
