@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d66b422.css",
+    "main.js": "/static/js/main.216ec9d6.js",
+    "static/media/bck.png": "/static/media/bck.892a66901fd32d17fe8b.png",
+    "static/media/moto.png": "/static/media/moto.36c8875d23ddc94970c0.png",
+    "static/media/bck top.png": "/static/media/bck top.5cc362b515948c70ffeb.png",
+    "static/media/front.png": "/static/media/front.6aff811493ca3a1bf8ec.png",
+    "static/media/Druk-Wide-Bold.ttf": "/static/media/Druk-Wide-Bold.9c659f356277c01eb408.ttf",
+    "static/media/bckMoto.png": "/static/media/bckMoto.babb42f36b5df89ce461.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.e20d5327f1a05620c084.ttf",
+    "static/media/オートバイ.svg": "/static/media/オートバイ.5551ef5d80529ea41835536f363045ee.svg",
+    "static/media/Vectorlogo.svg": "/static/media/Vectorlogo.558ecf911d6d12f65dfc70bb453900b9.svg",
+    "static/media/path21B.svg": "/static/media/path21B.bfd803368d7d2c7837ad65e0757b53ff.svg",
+    "static/media/path7O.svg": "/static/media/path7O.c127ba3a0988c8b6560b49db909a60f1.svg",
+    "static/media/path15C.svg": "/static/media/path15C.e458962734626001d31982b7eab4f76e.svg",
+    "static/media/path9M.svg": "/static/media/path9M.bdaa8b75138b420991096d674928cc24.svg",
+    "index.html": "/index.html",
+    "static/media/path11N.svg": "/static/media/path11N.d9ee58b67b7a0df1228314e5e4b203e0.svg",
+    "static/media/path13T.svg": "/static/media/path13T.58903ce706a7048620f83c5f2cd79c69.svg",
+    "static/media/path19A.svg": "/static/media/path19A.49524c6544e805ac5867de041a5bfed9.svg",
+    "static/media/path17L.svg": "/static/media/path17L.5f3999e18a107bcfcf385bdae0e80b50.svg",
+    "static/media/Line.svg": "/static/media/Line.fd2d07dfc741357bb4155bd32aac66ac.svg",
+    "static/media/rightLine.svg": "/static/media/rightLine.54567cae90572f206b285269498529ab.svg",
+    "main.4d66b422.css.map": "/static/css/main.4d66b422.css.map",
+    "main.216ec9d6.js.map": "/static/js/main.216ec9d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d66b422.css",
+    "static/js/main.216ec9d6.js"
+  ]
+}
